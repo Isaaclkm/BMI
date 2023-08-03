@@ -1,0 +1,40 @@
+:root{
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main, section {
+    width: 100%; /* Optional: Expand to the full width of the container */
+    overflow: hidden; /* Optional: Clear floats or handle overflow content */
+}
+
+main{
+        height: 80vh;
+        background: linear-gradient(to right, #D6FCFE 0%, #D6E6FE 60%, #ffffff 60%);
+        border-radius: 20px; 
+}
+
+.container{
+    height: 60%;
+    outline: 3px blue dotted;
+    margin: 5rem 5rem;
+    display: flex;
+}
+
+.container > div{
+    outline: 3px red dotted;
+    flex: 1;
+}
+
+.container .text-content *{
+    margin-bottom: 2rem;
+}
+
+.container .form-container{
+    background-color: white;
+}
